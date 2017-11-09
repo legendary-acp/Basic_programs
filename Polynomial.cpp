@@ -25,10 +25,8 @@ int main()
       for(int k=0;k<n;k++)
       {
         c=a[i][0]+a[i][1]*b[j]+a[i][2]*b[j]*b[j]+a[i][3]*b[j]*b[j]*b[j];
-        if(min==0)
-        min=c;
-        else if(c<min)
-        min=c;
+        if(min==0||c<min)
+        min=c;  
       }
       cout<<min;
       min=0;
