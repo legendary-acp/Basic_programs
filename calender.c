@@ -4,6 +4,7 @@ int main()
 {
     printf("Enter the Month and year\n");
     scanf("%d && %d",&month,&year);
+    prinf("Dates in month are:");
     if(year%4==0)
     {
         if(month==1||3||5||7||8||10||12)
