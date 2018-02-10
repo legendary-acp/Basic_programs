@@ -23,7 +23,7 @@ int main()
 	if(flag==1&&flag2==0)
         {
     	    cout<<" ";
-	    flag=0;
+	    flag = 0 ;
         }
     }
 }
