@@ -1,10 +1,12 @@
 #include<stdio.h>
-int year, month,year,i;
+
 int main()
 {
-    printf("Enter the Month and year\n");
-    scanf("%d && %d",&month,&year);
-    prinf("Dates in month are:");
+int  month,year,i;
+    printf("Enter the month and year\n");
+    scanf("%d ",&month,&year);
+    
+    printf("Dates in month are: \n");
     if(year%4==0)
     {
         if(month==1||3||5||7||8||10||12)
@@ -13,14 +15,15 @@ int main()
             {
                 printf("%d\n", i);
             }
-        }
+        
         if(month==2)
         {
-            for(i=1;i<=28;i++)
+            for(i=1;i<=29;i++)
             {
                 printf("%d\n",i);
             }
         }
+    }
         else
         {
             for(i=1;i<=30;i++)
@@ -37,14 +40,15 @@ int main()
             {
                 printf("%d\n", i);
             }
-        }
+        
         if(month==2)
         {
-            for(i=1;i<=27;i++)
+            for(i=1;i<=28;i++)
             {
                 printf("%d\n",i);
             }
         }
+    }
         else
         {
             for(i=1;i<=30;i++)
