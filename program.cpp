@@ -11,7 +11,7 @@
          
           void input_value()
           {
-             cout << "In function input_value, Enter an integer\n";
+             cout << "In function input_value, Enter an integer \n";
              cin >> variable;
           }
          
