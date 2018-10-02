@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  int t;
+  int t,l;
   cin>>t;
   while(t--)
   {
@@ -15,7 +15,8 @@ int main()
     }
     int c,q,k;
     cin>>q;
-    int b[q-1],c[n];
+    l=q;
+    int b[l],c[n];
     while(q--),min=0;
     {
       cin>>b[q-1];
