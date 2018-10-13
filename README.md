@@ -5,7 +5,7 @@
 This repo is created so for first year students who want to contribute in open source for [hacktober fest](https://hacktoberfest.digitalocean.com/).
 
 
-# Rules for contribution.
+## Rules for contribution.
 1) Write a simple program, try making programs that don't already exists.
 2) Program can be for anything example for Printing hello world to anything.
 3) There is no restriction on Programming Language
