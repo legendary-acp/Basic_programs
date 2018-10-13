@@ -2,34 +2,26 @@
 using namespace std;
 int main()
 {
-  int t,l;
+  int t;
   cin>>t;
-  while(t--)
-  {
+  while(t--){
     int n;
     cin>>n;
     int a[n][3],i;
     for(i=0;i<n;i++)
-    {
-        cin>>a[i][0]>>a[i][1]>>a[i][2]>>a[i][3];
-    }
-    int c,q,k;
+      cin>>a[i][0]>>a[i][1]>>a[i][2]>>a[i][3];
+    int q;
     cin>>q;
-    l=q;
-    int b[l],c[n];
-    while(q--),min=0;
-    {
+    int l=q,b[q],c,min=0;
+    while(q--)
       cin>>b[q-1];
-    }
-    for(int j=0;j<(q-1);j++)
-    {
-      for(int k=0;k<n;k++)
-      {
+    for(int j=0;j<(q-1);j++){
+      for(int k=0;k<n;k++){
         c=a[i][0]+a[i][1]*b[j]+a[i][2]*b[j]*b[j]+a[i][3]*b[j]*b[j]*b[j];
         if(min==0||c<min)
-        min=c;  
+          min=c;
       }
-      cout<<min;
+      cout<<min<<" ";
       min=0;
     }
   }
