@@ -1,4 +1,7 @@
 # Basic Programs
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d110551466244f7d91cdb148d467c5f3)](https://app.codacy.com/app/meetupradyuman/Basic_programs?utm_source=github.com&utm_medium=referral&utm_content=legendary-acp/Basic_programs&utm_campaign=Badge_Grade_Dashboard)
+
 This repo is created so for first year students who want to contribute in open source for [hacktober fest](https://hacktoberfest.digitalocean.com/).
 
 
