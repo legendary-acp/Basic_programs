@@ -3,7 +3,10 @@ package fibonacci;
 public class Fibonacci {
 
     public static void main(String args[]) {
-        int number1 = 0, number2 = 1, number3, timesToLoop = 10;
+        int number1 = 0; 
+        int number2 = 1; 
+        int number3;
+        int timesToLoop = 10;
 
         for (int i = 2; i < timesToLoop; i++) {
             number3 = number1 + number2;
