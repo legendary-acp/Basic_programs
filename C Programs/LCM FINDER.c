@@ -1,3 +1,4 @@
+/*Program to find LCM of given two numbers*/
 #include <iostream>
 using namespace std;
 
