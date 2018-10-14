@@ -4,11 +4,11 @@ for x in range(int(input())):
     a=[int(m) for m in input().split()]
     c=0
     for i in range(n):
-        sum=0
+        sm=0
         pcdt=1
         for j in range(i,n):
-            sum+=a[j]
+            sm+=a[j]
             pcdt*=a[j]
-            if(sum==pcdt):
+            if(sm==pcdt):
                 c+=1
     print(c)
