@@ -1,3 +1,13 @@
+/*
+This program prints the Fibonacci serie. 
+Adding number1 and number2, printing it, and setting the variables for next iteration.
+Change time to loop for as many iterations you want. 
+0 + 1 = 1 
+1 + 1 = 2 
+1 + 2 = 3 
+2 + 3 = 5 etc.
+*/
+
 package fibonacci;
 
 public class Fibonacci {
