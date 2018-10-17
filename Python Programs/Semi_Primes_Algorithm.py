@@ -28,7 +28,7 @@ for m in range(T):
     p = False
     for num in range(2, N):
         if check_semi_prime(num):
-            s = f"{s} {str(num)}"
+            s = s+" "+str(num)                          #f"{s} {str(num)}"
     s = list(map(int, s.split()))
     for i in range(len(s)):
         for j in range(i, len(s)):
