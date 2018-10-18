@@ -30,9 +30,9 @@ for m in range(T):
         if check_semi_prime(num):
             s = s+" "+str(num)                          #f"{s} {str(num)}"
     s = list(map(int, s.split()))
-    for i in range(len(s)):
+    for i,value in enumerate(s):
         for j in range(i, len(s)):
-            if s[i] + s[j] == N:
+            if value + s[j] == N:
                 p = True
     if p:
         print("YES")
