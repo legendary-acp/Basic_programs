@@ -1,3 +1,7 @@
+/* This program demonstrate two ways to compute the sum of an array of integers.
+There are two ways to compute the sum: by iteration using a for loop, and by recursion.
+Standard output is use to show the result.
+*/
 #include <iostream>
 using namespace std;
 
