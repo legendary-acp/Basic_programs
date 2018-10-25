@@ -12,7 +12,7 @@ int main()
       cin>>a[i][0]>>a[i][1]>>a[i][2]>>a[i][3];
     int q;
     cin>>q;
-    int l=q,b[q],c,min=0;
+    int b[q],c,min=0;
     while(q--)
       cin>>b[q-1];
     for(int j=0;j<(q-1);j++){
