@@ -35,7 +35,7 @@ int main()
   {  printf("enter size of strings: ");
   scanf("%d",&n);
      printf("enter the string: ");
-	 scanf("%s",ch);
+	 scanf("%s",&ch);
 	 printf("string after process is: ");
      for(int j=0;j<n;j++)
      { m=ch[j];
