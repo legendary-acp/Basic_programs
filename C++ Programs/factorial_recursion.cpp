@@ -11,6 +11,7 @@
 		{
 		
 			k=x*fact(x-1);
+			return(k);
 		}
 	}
 	int main()
