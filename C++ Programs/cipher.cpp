@@ -1,13 +1,12 @@
 #include<stdio.h>
 #include<string.h>
 int main()
-{ int n,k,r,m,a[1000];
+{ int n,r,m,a[1000];
   char ch[1000];
   printf("enter any string\n");
-  scanf("%s",ch);
+  scanf("%s",&ch);
   printf("enter number of characters it should increase for every element\n");
   scanf("%d",&n);
-  k=sizeof(ch);
   for(int i=0;ch[i]!='\0';i++)
   { if(ch[i]>='a'&&ch[i]<='z')
   {  r=n%26;
