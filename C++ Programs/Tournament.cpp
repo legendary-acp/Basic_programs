@@ -5,7 +5,7 @@ int main()
 {
   long int n;
   cin>>n;
-  long int s=0,a[n],i=1,j;
+  long int s=0,a[n],i=1;
   a[0]=0;
   for(int k=1;k<=n;k++)
   {
@@ -13,7 +13,7 @@ int main()
   }
   while (i<n) 
   {
-    j=i+1;
+    int j=i+1;
     while (j<=n) 
     {
       s=abs(a[i]-a[j])+s;
