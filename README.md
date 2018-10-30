@@ -15,3 +15,4 @@ This repo is created so for first year students who want to contribute in open s
 ### For any guide on use see GIT pdf in repo
 
 If you like my efforts make sure you star the repo and follow me 😜
+I study at NIT hamirpur.
