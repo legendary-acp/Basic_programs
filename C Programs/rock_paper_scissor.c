@@ -10,6 +10,7 @@ int main () {
   game();
   return 0;
 }
+/* This function will print "Rock" "Paper" or "Scissor" based on random number that it got from game() function */
 void computer(int num){
   switch (num) {
     case 0:
@@ -26,6 +27,7 @@ void computer(int num){
       break;
   }
 }
+/* Main Game Function */
 int game() {
   char user;
   int bot,i;
@@ -60,6 +62,7 @@ int game() {
   }
   }while(user==bot);
 }
+/* When player lose or win this function will take over */
 int gameover() {
   int input;
   printf("\nDo you want to try again??\n   Press 1: Try again        Press 2: Exit\n Enter your choice:");
