@@ -1,25 +1,17 @@
 #include<stdio.h>
- int fact(int x);
   
-     int fact(int x)
-	{  int k=1;
+    int fact(int x)
+	{  
 		if(x==0)
-	       {
-		   	return(k);
-		   }
+		   	return(1);
 		else
-		{
-		
-			k=x*fact(x-1);
-			return(k);
-		}
+			return(x*fact(x-1));
 	}
 	int main()
 	{
-		int n,a,c;
-		printf("enter number ");
+		int n;
+		printf("enter number \n");
 		scanf("%d",&n);
-		a=fact(n);
-		printf("%d",a);
+		printf("%d",fact(n));
 	}
 
