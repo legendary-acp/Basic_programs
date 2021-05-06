@@ -1,0 +1,42 @@
+from sys import stdin
+import math
+
+def fun(n): 
+
+    if (n < 1): 
+        return 0
+   
+    res = 1
+    for i in range(66): 
+      
+        curr = 1 << i 
+        if (curr > n): 
+             break
+             
+        res = curr 
+   
+    return res 
+
+t = int(stdin.readline())
+
+a = []
+a.append(0)
+a.append(0)
+a.append(1)
+for i in range(3,62):
+    a.append(int((a[i-1]+a[i-2])%10))
+a[0]=a[60]
+    
+while(t>0):
+    n = int(stdin.readline())
+    #temp = math.floor(math.log(n,2))
+    #x = int(pow(2,temp))
+    
+    x = fun(n)
+    #print(x)
+    x = x%60
+    #print(x)
+    print(a[x])
+    t-=1
+    
+    
