@@ -27,7 +27,7 @@ int wincheck()
 	return 1;
 	else if(a[0]==a[4]&&a[4]==a[8])
 	return 1;
-	else if(a[1]==a[4]&&a[4]==a[6])
+	else if(a[2]==a[4]&&a[4]==a[6])
 	return 1;
 	else
 	return 0;
